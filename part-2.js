@@ -17,14 +17,26 @@ if (score >= 80) {
 
 console.log('\n');
 
-//PROBLEM 2
+//PROBLEM 2.1
 
 let bilangan = 25;
 
-console.log('PROBLEM 2 FACTOR \n')
+console.log('PROBLEM 2.1 FACTOR \n')
 console.log(`Faktor dari ${bilangan} yaitu : \n`)
 for (let i = 0; i <= bilangan; i++) {
   if(bilangan%i === 0){
+    console.log(i)
+  }
+}
+
+//PROBLEM 2.2
+
+let bilangan2 = 25
+
+console.log('PROBLEM 2.2 FACTOR \n')
+console.log(`Faktor dari ${bilangan} yaitu : \n`)
+for (let i = bilangan2; i > 0 ; i--) {
+  if(bilangan2%i === 0){
     console.log(i)
   }
 }
